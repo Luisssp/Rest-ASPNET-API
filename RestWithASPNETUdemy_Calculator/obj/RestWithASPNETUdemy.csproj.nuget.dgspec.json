@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Udemy\\03_RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj": {}
+    "C:\\nodejs\\projetos\\Rest-ASPNET-API\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj": {}
   },
   "projects": {
-    "C:\\Udemy\\03_RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj": {
+    "C:\\nodejs\\projetos\\Rest-ASPNET-API\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Udemy\\03_RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj",
+        "projectUniqueName": "C:\\nodejs\\projetos\\Rest-ASPNET-API\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj",
         "projectName": "RestWithASPNETUdemy",
-        "projectPath": "C:\\Udemy\\03_RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj",
+        "projectPath": "C:\\nodejs\\projetos\\Rest-ASPNET-API\\RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy.csproj",
         "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Udemy\\03_RestWithASPNETUdemy_Calculator\\RestWithASPNETUdemy_Calculator\\obj\\",
+        "outputPath": "C:\\nodejs\\projetos\\Rest-ASPNET-API\\RestWithASPNETUdemy_Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

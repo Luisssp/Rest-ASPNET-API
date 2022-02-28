@@ -2,10 +2,17 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Pomelo.EntityFrameworkCore.MySql.Storage;
+using RestWithASPNETUdemy.Business;
+using RestWithASPNETUdemy.Business.Implementations;
+using RestWithASPNETUdemy.Model.Context;
+using RestWithASPNETUdemy.Repository;
+using RestWithASPNETUdemy.Repository.Implementations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +34,15 @@ namespace RestWithASPNETUdemy
         {
 
             services.AddControllers();
+            var connection = Configuration["MySQLConnection:MySQLConnectionString"];
+                //["MySQLConnection: MySQLConnectionString"];
+            services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
+            
+            //versioning Api
+            services.AddApiVersioning();
+            //Dependency Injection
+            services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
+            services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
