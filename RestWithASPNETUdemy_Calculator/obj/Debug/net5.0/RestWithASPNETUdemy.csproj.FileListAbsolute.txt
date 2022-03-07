@@ -33,3 +33,14 @@ C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5
 C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\obj\Debug\net5.0\RestWithASPNETUdemy.csproj.CopyComplete
 C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Evolve.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\nodejs\projetos\Rest-ASPNET-API\RestWithASPNETUdemy_Calculator\bin\Debug\net5.0\Serilog.Sinks.File.dll
